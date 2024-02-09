@@ -22,7 +22,7 @@ a {
   overflow: hidden;
 }
 
-/* ============ heder ============= */
+/* ============ Header ============= */
 .header-menu-link {
   color: #2e2f42;
   font-size: 16px;
@@ -43,7 +43,7 @@ a {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
 }
@@ -56,7 +56,7 @@ a {
 
 .header-logo {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
@@ -66,51 +66,61 @@ a {
 
 .header-logo-new {
   color: #2e2f42;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0.03em;
   text-align: left;
 }
-/* ======== heder ========= */
+/* ======== Header ========= */
 
-/* =========section-hero ========= */
+/* ========= Section Hero ========= */
 .HERO {
-  width: 1440px;
+  width: 100%;
   height: 600px;
-  top: 72px;
   background-color: #2e2f42;
 }
 
 .HERO-title {
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07px;
+  line-height: 1.07;
   letter-spacing: 0.03em;
   text-align: center;
+  color: white;
 }
 
 .HERO-btn {
   color: #4d5ae5;
   width: 169px;
   height: 56px;
-  top: 428px;
-  left: 636;
   border-radius: 4px;
-  padding: 6px, 32px, 16px, 32px;
+  padding: 16px 32px;
   gap: 10px;
+  background-color: transparent;
+  border: 2px solid #4d5ae5;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-/* =========section-hero ========= */
-
-/* =========Content ========= */
-
-.content {
+.HERO-btn:hover,
+.HERO-btn:focus,
+.HERO-btn:active {
+  background-color: #4d5ae5;
+  color: white;
 }
+/* ========= Section Hero ========= */
+
+/* ========= Content ========= */
 .content-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
 .content-item {
+  width: 48%;
 }
 
 .content-subtitle {
@@ -118,7 +128,7 @@ a {
   font-family: inherit;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
 }
@@ -128,26 +138,16 @@ a {
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
 }
+/* ========= Content ========= */
 
-/* =========Content ========= */
-/* .HERO-btn {
-  
-  font-family: inherit;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5px;
-  letter-spacing: 0.04em;
-  text-align: left;
-} */
-
-/* ===========team==================== */
-
+/* ========= Team ========= */
 .Team {
   background-color: #f4f4fd;
+  padding: 40px 0;
 }
 
 .Team-title {
@@ -155,17 +155,24 @@ a {
   font-family: inherit;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
 }
 
 .team-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
+
 .team-item {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .team-picture {
+  border-radius: 50%;
 }
 
 .team-name {
@@ -173,7 +180,7 @@ a {
   font-family: inherit;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
 }
@@ -183,14 +190,15 @@ a {
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
 }
+/* ========= Team ========= */
 
-/* ================section-3 Portfolio ==============*/
-
+/* ========= Portfolio ========= */
 .Portfolio {
+  padding: 40px 0;
 }
 
 .Portfolio-title {
@@ -198,28 +206,26 @@ a {
   font-family: inherit;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-align: center;
 }
 
 .Portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .Portfolio-item {
+  text-align: center;
+  margin-bottom: 30px;
+  width: 30%;
 }
 
 .Portfolio-picture {
-}
-
-.Portfolio-item-text {
-  color: #434455;
-  font-family: inherit;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5px;
-  letter-spacing: 0.02em;
-  text-align: left;
+  width: 100%;
+  border-radius: 8px;
 }
 
 .Portfolio-subtitle {
@@ -227,108 +233,55 @@ a {
   font-family: inherit;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
 }
 
-/* ================section-3 Portfolio ==============*/
-
-/* =============footer================ */
-/* 
-.footer {
-  background-color: #2e2f42;
-}
-
-.footer-text {
-  color: #f4f4fd;
+.Portfolio-item-text {
+  color: #434455;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
 }
+/* ========= Portfolio ========= */
 
-.header-logo-two {
-  color: #4d5ae5;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16px;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
-
-.header-logo-two-new {
-  color: white;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
-
-/* footer 
-
-  width: 1440px;
-  height: 312px;
-  top: 2988px;
-  color: #2e2f42; 
-  */
-
-/* .header-logo {
-  color: #4d5ae5;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
-
-.header-logo-new {
-  color: #2e2f42;
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-align: left;
-}
-
-*/
-
-/* /* ========================================== */
-
+/* ========= Footer ========= */
 .footer {
   background: #2e2f42;
+  padding: 20px 0;
+}
+
+.logo-class {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
 
 .logo-two {
-  background: #4d5ae5;
-
-  font-family: Raleway;
+  background: #f4f4fd;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-align: left;
 }
 
 .logo-two-new {
   background: #f4f4fd;
-
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16px;
-  letter-spacing: 0.03em;
-  text-align: left;
+  font-family: "Raleway", sans-serif;
 }
 
 .footer-text {
-  background: white;
+  color: #f4f4fd;
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
