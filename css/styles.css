@@ -34,6 +34,10 @@ a {
   text-align: left;
 }
 
+/* .line-height { 
+  line-height: 1.17;
+}   */
+
 .header-menu-link:hover,
 .header-menu-link:focus,
 .header-menu-link:active {
@@ -98,7 +102,7 @@ a {
   width: 169px;
   height: 56px;
   border-radius: 4px;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
   gap: 10px;
   background-color: transparent;
   border: 2px solid #4d5ae5;
