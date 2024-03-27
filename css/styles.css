@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+.line-height {
+  background-color: red;
+}
+
 /* .visually-hidden {
   position: absolute;
   width: 1px;
@@ -25,6 +29,18 @@ a {
 } */
 
 /* ============ Header ============= */
+
+.header-menu-item {
+  /* background: #2e2f42; */
+  color: #2e2f42;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
 .header-menu-link {
   color: #2e2f42;
   font-size: 16px;
@@ -90,21 +106,22 @@ a {
   background-color: #2e2f42;
 }
 
-/* .HERO-title {
+.HERO-title {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.03em;
   text-align: center;
   color: white;
-} */
+}
 
 /* styles.css */
 
-.HERO-title {
+/* .HERO-title {
   font-size: 44px;
   color: white;
 }
+ */
 
 .HERO-btn {
   color: #4d5ae5;
@@ -119,6 +136,13 @@ a {
   transition: background-color 0.3s, color 0.3s;
 }
 
+.hero-btn-link {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 14px;
+  color: #f4f4fd;
+}
+
 .HERO-btn:hover,
 .HERO-btn:focus,
 .HERO-btn:active {
@@ -127,7 +151,7 @@ a {
 }
 /* ========= Section Hero ========= */
 
-/* ========= Content ========= */
+/* ========= Content section #1 ========= */
 .content-list {
   display: flex;
   flex-wrap: wrap;
@@ -148,6 +172,16 @@ a {
   text-align: left;
 }
 
+.visually-hidden {
+  color: #2e2f42;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 500px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
 .content-item-text {
   color: #434455;
   font-family: inherit;
@@ -157,6 +191,20 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
+.Picture {
+  width: 64px;
+  height: 64px;
+  top: 24px;
+  left: 100px;
+
+  /*   color: #8e8f99;
+  width: 264px;
+  height: 112px;
+  border-radius: 4px;
+  border: 1px; */
+}
+
 /* ========= Content ========= */
 
 /* ========= Team ========= */
@@ -283,10 +331,10 @@ a {
 
 .logo-two {
   color: #f4f4fd;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16px;
+  line-height: 21px;
   letter-spacing: 0.03em;
   text-align: left;
 }
@@ -300,3 +348,94 @@ a {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
+.Social {
+  width: 96px;
+  height: 24px;
+  top: 3256px;
+  left: 540px;
+
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 1.5;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.instagram {
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 8px;
+}
+
+/* раздел  */
+
+/* 
+
+.footer {
+  background-color: black;
+  padding: 20px;
+}
+
+.footer-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-class {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+}
+
+.logo-two {
+  color: #ff6600;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: #666;
+}
+
+.social {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.social-link {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.social-link img {
+  width: 40px; /* Задайте нужную ширину */
+/* Высота автоматически рассчитывается */
+
+/* 
+/* Медиазапрос для адаптивности */
+/* @media screen and (max-width: 768px) {
+  .footer-navigation {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-text {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .social {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .social-link {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+  }
+} */
