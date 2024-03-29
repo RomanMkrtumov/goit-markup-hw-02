@@ -12,6 +12,16 @@ a {
   text-decoration: none;
 }
 
+.header-span {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #2e2f42;
+}
+
 /* .visually-hidden {
   position: absolute;
   width: 1px;
@@ -77,7 +87,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17px;
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
