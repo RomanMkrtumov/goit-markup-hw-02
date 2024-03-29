@@ -10,13 +10,14 @@ ul {
 
 a {
   text-decoration: none;
+  transition: color0.3s;
 }
 
 .header-span {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16px;
+  line-height: 1.17px;
   letter-spacing: 0.03em;
   text-align: left;
   color: #2e2f42;
@@ -66,6 +67,15 @@ a {
   color: #4d5ae5;
 }
 
+address a {
+  color: black; /* Черный цвет по умолчанию */
+  transition: color0.3s; /* Плавное изменение цвета */
+}
+
+address a:hover {
+  color: #4d5ae5; /* Цвет при наведении курсора */
+}
+
 .header-menu-link-new {
   font-style: normal;
   color: #434455;
@@ -93,26 +103,16 @@ a {
   text-transform: uppercase;
 }
 
-.header-logo-new {
-  color: #2e2f42;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.03em;
-  text-align: left;
-  text-transform: uppercase;
-}
 /* ======== Header ========= */
 
 /* ========= Section Hero ========= */
-.HERO {
+.hero {
   width: 100%;
   height: 600px;
   background-color: #2e2f42;
 }
 
-.HERO-title {
+.hero-title {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -129,32 +129,29 @@ a {
 }
  */
 
-.HERO-btn {
-  color: #4d5ae5;
-  width: 169px;
-  height: 56px;
-  border-radius: 4px;
-  /* padding: 16px 32px; */
-  gap: 10px;
-  background-color: transparent;
-  border: 2px solid #4d5ae5;
+.button {
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  background-color: #404bbf;
+  background-color: #404bbf;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
+  top: 428px;
+  left: 636px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+}
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+.hero-btn:hover {
+  background-color: #404bbf;
 }
 
-.hero-btn-link {
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 14px;
-  color: #f4f4fd;
-}
-
-.HERO-btn:hover,
-.HERO-btn:focus,
-.HERO-btn:active {
-  background-color: #4d5ae5;
-  color: white;
-}
 /* ========= Section Hero ========= */
 
 /* ========= Content section #1 ========= */
