@@ -50,7 +50,7 @@ a {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.17;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: left;
 }
@@ -58,7 +58,7 @@ a {
 .header-menu-link:hover,
 .header-menu-link:focus,
 .header-menu-link:active {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 address a {
@@ -66,12 +66,15 @@ address a {
   transition: color 0.3s;
 }
 
+address {
+  font-style: normal;
+}
+
 address a:hover {
   color: #4d5ae5;
 }
 
 .address-contacts {
-  font-style: normal;
   color: #434455;
   font-size: 16px;
   font-weight: 400;
