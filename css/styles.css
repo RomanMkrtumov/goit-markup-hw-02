@@ -100,7 +100,7 @@ address a:hover {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   text-align: center;
   color: white;
 }
@@ -133,6 +133,7 @@ address a:hover {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
   text-align: left;
 }
 
@@ -144,8 +145,8 @@ address a:hover {
   margin-inline-end: 0px;
   font-weight: bold;
   unicode-bidi: isolate;
+  letter-spacing: 0.02em;
 }
-/* section 2 */
 
 .section-content {
   background-color: #f4f4fd;
