@@ -55,13 +55,9 @@ a {
   text-align: left;
 }
 
-.header-menu-link-new {
-  color: #434455;
-}
-
-.header-menu-link-new:hover,
-.header-menu-link-new:focus,
-.header-menu-link-new:active {
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-menu-link:active {
   color: #404bbf;
 }
 
