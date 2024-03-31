@@ -131,7 +131,7 @@ address a:hover {
 }
  */
 
-.button {
+.button-order {
   color: inherit;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -142,12 +142,14 @@ address a:hover {
   cursor: pointer;
 }
 
-.hero-button:hover {
+.button-order:hover {
   background: #404bbf;
 }
-.hero-button:focus {
+
+.button-order:focus {
   background: #404bbf;
 }
+
 /* ========= Section Hero ========= */
 
 /* ========= Content section #1 ========= */
@@ -207,19 +209,20 @@ address a:hover {
 /* ========= Content ========= */
 
 /* ========= Team ========= */
-.Team {
+.team {
   background-color: #f4f4fd;
   padding: 40px 0;
 }
 
-.Team-title {
+.team-title {
   color: #2e2f42;
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 
 /* .team-list {
