@@ -205,8 +205,8 @@ a {
 
 /* section 3  */
 
-.section-portfolio {
-  background-color: #ffffff; /* Добавлен стиль для фона */
+.portlofio-list {
+  background-color: #ffffff;
 }
 
 .portfolio-iteam {
@@ -214,7 +214,6 @@ a {
   text-transform: capitalize;
   color: #434455;
   background-color: #ffffff; /* Добавлен стиль для фона */
-
   font-family: "Roboto", sans-serif;
 }
 
