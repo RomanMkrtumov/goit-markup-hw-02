@@ -205,10 +205,16 @@ a {
 
 /* section 3  */
 
+.section-portfolio {
+  background-color: #ffffff; /* Добавлен стиль для фона */
+}
+
 .portfolio-iteam {
   text-align: left;
   text-transform: capitalize;
   color: #434455;
+  background-color: #ffffff; /* Добавлен стиль для фона */
+
   font-family: "Roboto", sans-serif;
 }
 
