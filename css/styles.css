@@ -150,7 +150,7 @@ a {
   text-align: left;
 }
 
-.Studio {
+.studio {
   font-size: 1.5em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
@@ -181,6 +181,10 @@ a {
 }
 
 /* section 2  */
+
+.team-list {
+  background-color: #ffffff;
+}
 
 .team {
   background-color: #f4f4fd;
