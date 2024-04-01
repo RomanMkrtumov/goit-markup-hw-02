@@ -10,7 +10,6 @@ ul {
 
 a {
   text-decoration: none;
-  transition: color 0.3s; /* Исправлено: добавлен пробел перед 0.3s */
 }
 
 /* logotype */
@@ -107,9 +106,36 @@ a {
   color: #404bbf;
 }
 
-/* section */
+/* section -hero */
 
 .section-hero {
+  background-color: #2e2f42;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.hero-titel {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.button-order {
+  color: inherit;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button-order:hover,
+.button-order:focus {
+  background-color: #404bbf;
+}
+
+/* .section-hero {
   background-color: #2e2f42;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -124,11 +150,11 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: white;
-}
+} */
 
 /* Button */
 
-.button-order {
+/* .button-order {
   color: inherit;
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
@@ -143,7 +169,7 @@ a {
 .button-order:active,
 .button-order:focus {
   background: #404bbf;
-}
+} */
 
 .content-item {
   width: 48%;
@@ -195,17 +221,6 @@ a {
 .team {
   background-color: #f4f4fd;
 }
-
-/* .team-title {
-  color: #2e2f42;
-  font-family: "Roboto", sans-serif;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
-} */
 
 .team-item {
   text-align: center;
@@ -269,37 +284,6 @@ a {
   letter-spacing: 0.02em;
   font-weight: 400;
 }
-
-/* .portlofio-list {
-  background-color: #f4f4fd;
-}
-
-.portfolio-iteam {
-  text-align: left;
-  text-transform: capitalize;
-  color: #434455;
-  background-color: #ffffff; 
-  font-family: "Roboto", sans-serif;
-}
-
-.portfolio-titel {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #2e2f42;
-}
-
-.portfolio-text {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-weight: 400;
-} */
-/* footer */
 
 footer {
   background-color: #2e2f42;
