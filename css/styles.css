@@ -205,38 +205,30 @@ a {
 
 /* section 3  */
 
-.portfolio {
-  padding: 40px 0;
-  background-color: #ffffff; /* Добавлен стиль для фона */
+.portfolio-iteam {
+  text-align: left;
+  text-transform: capitalize;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
 }
 
-.portfolio-item {
-  text-align: center;
-  margin-bottom: 30px;
-  width: 30%;
-  background-color: #ffffff; /* Добавлен стиль для фона */
-}
-
-.portfolio-subtitle {
-  color: #2e2f42;
-  font-family: inherit;
+.portfolio-titel {
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
+  color: #2e2f42;
 }
 
-.portfolio-item-text {
+.portfolio-text {
   color: #434455;
-  font-family: inherit;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
+  font-weight: 400;
 }
-
 /* footer */
 
 .footer {
