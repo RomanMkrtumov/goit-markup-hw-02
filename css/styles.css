@@ -135,10 +135,6 @@ a {
   background-color: #404bbf;
 }
 
-.content-item {
-  width: 48%;
-}
-
 .content-subtitle {
   color: #2e2f42;
   font-family: inherit;
@@ -146,7 +142,6 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   text-align: left;
 }
 
