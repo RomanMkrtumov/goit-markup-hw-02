@@ -236,21 +236,16 @@ a {
 }
 /* footer */
 
-.footer {
-  background: #2e2f42;
-  padding: 20px 0;
-}
-
-.footer-text {
+footer {
+  background-color: #2e2f42;
   color: #f4f4fd;
-  font-family: "inherit", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 
+.accent-footer {
+  color: #f4f4fd;
+}
 .logo-footer {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -260,8 +255,4 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
-}
-
-.accent-footer {
-  color: #f4f4fd;
 }
