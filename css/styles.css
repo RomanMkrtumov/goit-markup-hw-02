@@ -164,7 +164,6 @@ a {
 
 .team {
   background-color: #f4f4fd;
-  padding: 40px 0;
 }
 
 .team-title {
@@ -205,15 +204,21 @@ a {
 
 /* section 3  */
 
-.portlofio-list {
-  background-color: #f4f4fd;
+.section-titel {
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio-iteam {
   text-align: left;
   text-transform: capitalize;
   color: #434455;
-  background-color: #ffffff; /* Добавлен стиль для фона */
   font-family: "Roboto", sans-serif;
 }
 
@@ -234,6 +239,36 @@ a {
   letter-spacing: 0.02em;
   font-weight: 400;
 }
+
+/* .portlofio-list {
+  background-color: #f4f4fd;
+}
+
+.portfolio-iteam {
+  text-align: left;
+  text-transform: capitalize;
+  color: #434455;
+  background-color: #ffffff; 
+  font-family: "Roboto", sans-serif;
+}
+
+.portfolio-titel {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #2e2f42;
+}
+
+.portfolio-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+} */
 /* footer */
 
 footer {
